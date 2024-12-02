@@ -23,3 +23,13 @@ Then we note that a counting function over a list is the same as taking the leng
 ```lean
 l.count x = (l.filter (Eq x)).length
 ```
+
+## Day 2
+
+If a list `[a, ...b]` is safe then so is `[...b]`. This lemma allows to derive a bound on the last element of a safe list:
+
+Given a non-empty safe list $l$, let $s$ be the first element of it and $e$ be the last one. Then it always holds that:
+
+$$
+	e \le s + 3 \cdot len(l) \quad\land\quad e \ge s - 3 \cdot len(l)
+$$
