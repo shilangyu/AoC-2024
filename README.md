@@ -33,3 +33,7 @@ Given a non-empty safe list $l$, let $s$ be the first element of it and $e$ be t
 $$
 	e \le s + 3 \cdot len(l) \quad\land\quad e \ge s - 3 \cdot len(l)
 $$
+
+## Day 3
+
+We define what it means to be a regular expression and by construction prove that the `mul()` language is a regular one. This means the pattern can be extracted using regex engines.
