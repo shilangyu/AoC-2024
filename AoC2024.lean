@@ -3,3 +3,4 @@
 import AoC2024.Day01
 import AoC2024.Day02
 import AoC2024.Day03
+import AoC2024.Day04
