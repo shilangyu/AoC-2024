@@ -37,3 +37,9 @@ $$
 ## Day 3
 
 We define what it means to be a regular expression and by construction prove that the `mul()` language is a regular one. This means the pattern can be extracted using regex engines.
+
+## Day 4
+
+We prove that looking for a sequence of characters in a string is equivalent to looking for the reverse sequence of characters in a reversed string.
+
+Notably from this theorem and a lemma showing that reversing a string is an involution, a corollary follows that looking for XMAS in the reverse of a string is the same as looking for SAMX in a string.
