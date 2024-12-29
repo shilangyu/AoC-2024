@@ -79,3 +79,15 @@ There are $\frac{n(n-1)}{2}$ consistent comparisons (where $n$ is the amount of 
 Now to check if the update [75, 47, 53, 29] is correct, it is enough to check that it is a non-continuous sublist: [97, **75**, **47**, 61, **53**, **29**, 13].
 
 This is an $O(n)$ algorithm compared to the naive $O(n^2)$ one.
+
+## Day 6
+
+We implement the move simulation function in a type-safe way (all indices are type-guaranteed to be in range). We then show that there exists a map for which moving never stops, namely the following map:
+
+```
+.#.
+#^#
+.#.
+```
+
+This is proven by showing that all modulo 4 moves have the same configurations.
